@@ -26,6 +26,18 @@ insert into Ticket values(NULL,4,117);
 insert into Ticket values(NULL,5,111);
 
 
+Queries:
+1.Count of all passangers travelling in each Flight
+select f_id ,count(p_id) from Ticket group by f_id;
+
+2.Boarding details 
+ select * from F_details;
+
+3.Customer details
+select * from F_details;
+
+
+
 
 
 
